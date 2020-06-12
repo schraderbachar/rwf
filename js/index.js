@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
-            //scrollspy
-            $(document).ready(function(){
-                $('.scrollspy').scrollSpy();
-              });
+//navbar
+  $(document).ready(function(){
+    //scrollspy
+    $('.scrollspy').scrollSpy();
+    //navbar
+    $('.sidenav').sidenav();
   });

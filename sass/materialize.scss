@@ -36,17 +36,32 @@
 @import "components/datepicker";
 @import "components/timepicker";
 
+//navbar
+.logo{
+    height: 55px;
+    
 
+}
 
 //values section
 .values-section{
     font-family: $libre;
-    background-color: black;
+    background-color: $primary-color;
     color: white;
 }
 
-//about sectio
-.about-seciton{
+//about section
+.about-section{
     font-family: $monst;
     font-weight: $flight;
+    background-color: $secondary-color;
+    color: $greytext;
+}
+
+
+//phone landscape and up size devices
+@media only screen and (min-width: $tablet){
+    .logo{
+        height: 64px;
+    }    
 }
