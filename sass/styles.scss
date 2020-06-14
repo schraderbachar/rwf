@@ -36,9 +36,7 @@
 @import "components/datepicker";
 @import "components/timepicker";
 
-body{
-    background-color: black;
-}
+
 
 
  //overlay
@@ -67,25 +65,29 @@ body{
     color: white;
 }
 
-.left{
-    position: absolute;
-    left: 10px;
-}
-.right{
-    right: 10px;
-}
-.center{
-    top: 50%;
-    left: 50%;
-}
-
 //about section
-.about-section{
+#about{
     font-family: $monst;
     font-weight: $flight;
     background-color: $secondary-color;
     color: $greytext;
 }
+.left{
+    left: 10px;
+    margin: 5rem;
+}
+.right{
+    right: 10px;
+    margin: 5rem;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    margin: 5rem;
+}
+
+
+
 
 
 //phone landscape and up size devices
