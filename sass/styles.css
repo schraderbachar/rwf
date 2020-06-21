@@ -8091,18 +8091,18 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
-.main-header {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/overlay.jpg");
-  background-position: inherit;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+.logo {
+  height: 55px;
+  background-position: center;
+  top: 0%;
 }
 
-#obtn {
-  position: absolute;
-  top: 90%;
-  left: 45%;
+nav {
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #2a2a2a;
 }
 
 .values-section {
@@ -8128,7 +8128,7 @@ input[type=range]::-ms-thumb {
   margin: 5rem;
 }
 
-.center {
+.mid {
   top: 50%;
   left: 50%;
   margin: 5rem;
@@ -8147,17 +8147,6 @@ input[type=range]::-ms-thumb {
 .carousel .card-reveal {
   background-color: #0064a0;
   color: #ffffff;
-}
-
-@media only screen and (min-width: 600px) {
-  .main-header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/overlay.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
