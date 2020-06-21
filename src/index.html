@@ -28,13 +28,23 @@
  <section class="section values-section scrollspy" id="values">
     <div class="container">
         <div class="row">
-            <h1>
+            <span class="span-text
+            "><h1>
                 Reliable
             </h1>
             <h1>Wahr</h1> 
             <h1>Fidedigno</h1>
-                <h1>Different languages. Same Values.</h1> 
+        </span>
+                <h1>Different languages. <span class="span-text">Same Values.</span></h1> 
                
+        </div>
+        <div class="row">
+            <div class="col s6">
+            <a href="#about" class="btn mbtn waves-light waves-effect">Take a tour</a>
+        </div>
+        <div class="col s6">
+            <a href="#consulting" class="btn mbtn waves-light waves-effect">Lets Get Started</a>
+        </div>
         </div>
     </div>
     </section>
@@ -44,32 +54,47 @@
     <section class="section about-section scrollspy" id="about">
         <div class="container">
             <div class="row">
-                <div class="col s8 left">
-                    <h1>Website Development</h1>
-                    <!--one or two words here and a pic-->
+                <div class="col s12">
+                    <h1 class="span-text">What We Do</h1>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col s8 right">
-                    <h1>Social Media Management</h1>
-                    <!--one or two words here and a pic-->
+                <div class="col s12 m4 center">
+                    <h3>Web Dev</h3>
+                    <button data-target="modal1" class="btn modal-trigger wdbtn btn-floating"><i class="material-icons">open_in_full</i></button>
+                    <img src="https://img.icons8.com/wired/64/000000/web-design.png"/>
+                        
+                       
+                    
+                    
+                  
+                </div>
+                
+                <div class="col s12 center m4">
+                     <h3>Social Media</h3>
+                     <button data-target="modal2" class="btn modal-trigger wdbtn btn-floating"><i class="material-icons">open_in_full</i></button><img src="https://img.icons8.com/wired/64/000000/connected-people.png"/>
+                   
+                
+                    
+                </div>
+                <div class="col s12 center m4">
+                    <h3>Marketing</h3>
+                    <button data-target="modal3" class="btn modal-trigger wdbtn btn-floating"><i class="material-icons">open_in_full</i></button>
+                    <img src="https://img.icons8.com/dotty/80/000000/advanced-search.png">
+                   
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col s8 mid">
-                    <h1>SEO. Marketing. Analytics.</h1>
-                    <!--one or two words here and a pic-->
-                </div>
-            </div>
-        </div>
+        
         </div>
     </section>
+
+
+
     <!--review section-->
-    <section class="section review-section">
+    <section class="section review-section scrollspy">
         <div class="container">
     <div class="carousel carousel-slider">
         <!-- card one-->
@@ -128,11 +153,44 @@
         </div>
     </section>
     <!--consulting-->
-<section class="section consutling-section">
+<section class="section consutling-section scrollspy" id="consulting">
     consulting
 </section>
-    
-
+      <!-- webdev modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Web Dev</h4>
+      <p>From revamps to audits to full on creation. We do it all. Let's connect to get started and help your business grow with a professional website</p>
+      <h6><a href="#consulting" class="btn mbtn center waves-effect waves-light">Let's Get Started</a></h6>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close_fullscreen</i></a>
+    </div>
+  </div>
+      <!-- sm modal -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Social Media Management</h4>
+      <p>We know you have all the intentions of being amazing at social media marketing, but you have a business to run. Social media is hard. We get it. We know the who,what,when,where,why, and even how of social media marketing. Let us make your social media marketing amazing for you.</p>
+      <h6><a href="#consulting" class="btn mbtn center waves-effect waves-light">Let's Get Started</a></h6>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close_fullscreen</i></a>
+    </div>
+  </div>
+      <!-- dm modal -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Marketing</h4>
+      <p>SEO. Google Ads. Google Analytics. FaceBook ads. All that jargon and more used in our custom strategy catered toward your business.</p>
+      <h6><a href="#consulting" class="btn mbtn center waves-effect waves-light">Let's Get Started</a></h6>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close_fullscreen</i></a>
+    </div>
+  </div>
+          
+<!--footer-->
     
     
     

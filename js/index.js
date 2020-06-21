@@ -7,4 +7,8 @@
       fullWidth: true,
       indicators: true
     });
+    //modal
+    $('.modal').modal();
   });
+
+

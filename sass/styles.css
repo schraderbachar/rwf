@@ -8103,35 +8103,51 @@ nav {
 
 body {
   background-color: #2a2a2a;
+  flex-direction: column;
 }
 
 .values-section {
   font-family: "Libre Baskerville", serif;
   background-color: #2a2a2a;
   color: white;
+  height: 100vh;
+  width: 100vw;
 }
 
-#about {
+.about-section {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   background-color: #0064a0;
-  color: #2a2a2a;
+  color: #000000;
+  margin: 10px;
+  width: 100vw;
 }
 
 .left {
   left: 10px;
-  margin: 5rem;
 }
 
 .right {
   right: 10px;
-  margin: 5rem;
 }
 
-.mid {
-  top: 50%;
-  left: 50%;
-  margin: 5rem;
+.span-text {
+  color: #66b8d9 !important;
+}
+
+.mbtn {
+  background-color: #144659;
+}
+
+.modal {
+  background-color: #2a2a2a;
+  color: #66b8d9;
+}
+.modal .modal-footer {
+  background-color: #2a2a2a;
+}
+.modal .modal-footer .btn-flat {
+  color: #66b8d9;
 }
 
 .review-section {

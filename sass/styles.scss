@@ -49,6 +49,7 @@
  //html
  body{
      background-color: $primary-color;
+     flex-direction: column;;
  }
 
 //values section
@@ -56,28 +57,50 @@
     font-family: $libre;
     background-color: $primary-color;
     color: white;
+    height: 100vh;
+    width: 100vw;
 }
 
 //about section
-#about{
+.about-section{
     font-family: $monst;
     font-weight: $flight;
     background-color: $secondary-color;
-    color: $greytext;
+    color: #000000;
+    margin: 10px;
+
+    width: 100vw;
 }
 .left{
     left: 10px;
-    margin: 5rem;
+    
 }
 .right{
     right: 10px;
-    margin: 5rem;
+    
 }
-.mid{
-    top: 50%;
-    left: 50%;
-    margin: 5rem;
+
+.span-text{
+    color: $quaternary !important;
 }
+.mbtn{
+    //modal button
+    background-color: $tertiary;
+}
+.modal{
+    background-color: $primary-color;
+    color: $quaternary;
+    .modal-footer{
+    background-color: $primary-color;
+    .btn-flat{
+        color: $quaternary;
+    }
+}
+}
+
+
+
+
 
 //reviews
 .review-section{
@@ -99,5 +122,10 @@
 
 
 //phone landscape and up size devices
+@media only screen and (min-width: $landmobile){
+   
+}
+//tablet and up 
 @media only screen and (min-width: $tablet){
+   
 }
