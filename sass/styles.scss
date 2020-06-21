@@ -36,16 +36,12 @@
 @import "components/datepicker";
 @import "components/timepicker";
 
-
-
-
  //overlay
-
  .main-header {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/overlay.jpg');
-    background-position: center;
+    background-position: inherit;
     background-size: cover;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     
@@ -86,8 +82,23 @@
     margin: 5rem;
 }
 
-
-
+//reviews
+.review-section{
+    background-color: $primary-color;
+}
+.carousel{
+    .card{
+        background-color: $primary-color;
+    }
+    a{
+        background-color: $tertiary;
+    }
+    .card-reveal{
+        background-color: $secondary-color;
+        color: #ffffff;
+    }
+    
+}
 
 
 //phone landscape and up size devices
