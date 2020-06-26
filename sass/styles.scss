@@ -35,42 +35,64 @@
 @import "components/pulse";
 @import "components/datepicker";
 @import "components/timepicker";
-
- //nav
+@import url('https://fonts.googleapis.com/css?family=Ruda:900');
  .logo{
     height: 55px;
      background-position: center;
     top: 0%;
  }
- nav{
-     margin-bottom: 50px;
- }
- 
+
  //html
  body{
      background-color: $primary-color;
-     flex-direction: column;;
+     flex-direction: column;
  }
 
 //values section
 .values-section{
     font-family: $libre;
     background-color: $primary-color;
-    color: white;
+    color: #ffffff;
     height: 100vh;
     width: 100vw;
+    background-color: #556;
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    background-image: -webkit-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -webkit-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-image: -moz-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -moz-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-image: -ms-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -ms-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-image: -o-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -o-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-image: linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    
+}
+.bottom-left{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
 }
 .who-section{
     background-color: $quaternary;
     width: 100vw;
 }
 //about section
-.about-section{
+.review-section{
     font-family: $monst;
     font-weight: $flight;
     background-color: $secondary-color;
     color: #000000;
     width: 100vw;
+    .card{
+        background-color: $tertiary;
+        color: #ffffff;
+    }
+    .card-reveal{
+        background-color: $quaternary;
+    }
 }
 .left{
     left: 10px;
@@ -80,6 +102,7 @@
     right: 10px;
     
 }
+
 
 .span-text{
     color: $quaternary !important;
@@ -125,15 +148,28 @@ h3{
 }
 
 .words-section{
-
+//fill sum
 }
 
 
-//phone landscape and up size devices
-@media only screen and (min-width: $landmobile){
-   
-}
+
 //tablet and up 
 @media only screen and (min-width: $tablet){
-   
+    .middle{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    //    overflow-wrap: row;
+       max-width: 90vw;
+    }
+}
+//small desktop and up 
+@media only screen and (min-width: $sdesk){
+    .middle{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    //    overflow-wrap: row;
+       max-width: 80vw;
+    }
 }
