@@ -60,15 +60,16 @@
     height: 100vh;
     width: 100vw;
 }
-
+.who-section{
+    background-color: $quaternary;
+    width: 100vw;
+}
 //about section
 .about-section{
     font-family: $monst;
     font-weight: $flight;
     background-color: $secondary-color;
     color: #000000;
-    margin: 10px;
-
     width: 100vw;
 }
 .left{
@@ -106,6 +107,9 @@
 .review-section{
     background-color: $primary-color;
 }
+h3{
+    color: #ffffff;
+}
 .carousel{
     .card{
         background-color: $primary-color;
@@ -118,6 +122,10 @@
         color: #ffffff;
     }
     
+}
+
+.words-section{
+
 }
 
 

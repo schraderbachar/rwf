@@ -8114,12 +8114,16 @@ body {
   width: 100vw;
 }
 
+.who-section {
+  background-color: #66b8d9;
+  width: 100vw;
+}
+
 .about-section {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   background-color: #0064a0;
   color: #000000;
-  margin: 10px;
   width: 100vw;
 }
 
@@ -8152,6 +8156,10 @@ body {
 
 .review-section {
   background-color: #2a2a2a;
+}
+
+h3 {
+  color: #ffffff;
 }
 
 .carousel .card {
