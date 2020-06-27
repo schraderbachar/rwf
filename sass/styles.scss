@@ -52,18 +52,18 @@
 .values-section{
     font-family: $libre;
     background-color: $primary-color;
-    color: #ffffff;
+    color: $quaternary;
     height: 100vh;
     width: 100vw;
-    background-color: #556;
-    background-size: 80px 140px;
-    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-    background-image: -webkit-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -webkit-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -webkit-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-    background-image: -moz-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -moz-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -moz-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-    background-image: -ms-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -ms-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -ms-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-    background-image: -o-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), -o-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), -o-linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-    background-image: linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(-60deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), linear-gradient(30deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-    
+   
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+ 
 }
 .bottom-left{
     position: absolute;
@@ -148,7 +148,16 @@ h3{
 }
 
 .words-section{
-//fill sum
+    
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+    color: #ffffff;
+      
 }
 
 
