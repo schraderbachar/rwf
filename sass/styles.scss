@@ -52,18 +52,22 @@
 .values-section{
     font-family: $libre;
     background-color: $primary-color;
-    color: $quaternary;
-    height: 100vh;
+    color: #ffffff;
+    height: 90vh;
     width: 100vw;
+    background-color: $secondary-color;
+    opacity: 0.8;
    
-    background: 
-    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, black 25%, transparent 25%),
-    linear-gradient(45deg, black 25%, transparent 25%);	
-    background-size: 2em 2em;
-    background-color: #232323;
- 
+}
+.foto{
+    background: url('../img/stgo_skyline.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+    
+
+  
 }
 .bottom-left{
     position: absolute;
@@ -75,16 +79,25 @@
     bottom: 10%;
     left: 10%;
 }
+
+//who we are section
 .who-section{
     background-color: $quaternary;
     width: 100vw;
 }
+
+
 //about section
+.about-section{
+    background-color: $secondary-color;
+}
+
+//review section
 .review-section{
     font-family: $monst;
     font-weight: $flight;
-    background-color: $secondary-color;
-    color: #000000;
+    background-color: $primary-color;
+    color: #ffffff;
     width: 100vw;
     .card{
         background-color: $tertiary;
@@ -92,16 +105,10 @@
     }
     .card-reveal{
         background-color: $quaternary;
+        color: #000000;
     }
 }
-.left{
-    left: 10px;
-    
-}
-.right{
-    right: 10px;
-    
-}
+
 
 
 .span-text{
@@ -121,37 +128,20 @@
     }
 }
 }
-
-
-
-
-
-//reviews
-.review-section{
-    background-color: $primary-color;
-}
-h3{
+//consulting section
+.consulting-section{
+    background-color: $secondary-color;
     color: #ffffff;
+    padding-bottom: 50px;
 }
-.carousel{
-    .card{
-        background-color: $primary-color;
-    }
-    a{
-        background-color: $tertiary;
-    }
-    .card-reveal{
-        background-color: $secondary-color;
-        color: #ffffff;
-    }
+
+.icon{
+    height: 50px;
+    width: 50px;
     
 }
-
-.consulting-section{
-    background-color: $tertiary;
-}
-
-.words-section{
+//words and contact form section
+.contact-section{
     
     background: 
     linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
@@ -175,6 +165,7 @@ h3{
     //    overflow-wrap: row;
        max-width: 90vw;
     }
+  
 }
 //small desktop and up 
 @media only screen and (min-width: $sdesk){

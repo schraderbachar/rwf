@@ -4,6 +4,7 @@
     $('.scrollspy').scrollSpy();
     //modal
     $('.modal').modal();
+    $('.values-section').fadeIn();
   });
 
   

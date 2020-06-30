@@ -8106,12 +8106,18 @@ body {
 .values-section {
   font-family: "Libre Baskerville", serif;
   background-color: #2a2a2a;
-  color: #66b8d9;
-  height: 100vh;
+  color: #ffffff;
+  height: 90vh;
   width: 100vw;
-  background: linear-gradient(135deg, black 25%, transparent 25%) -50px 0, linear-gradient(225deg, black 25%, transparent 25%) -50px 0, linear-gradient(315deg, black 25%, transparent 25%), linear-gradient(45deg, black 25%, transparent 25%);
-  background-size: 2em 2em;
-  background-color: #232323;
+  background-color: #0064a0;
+  opacity: 0.8;
+}
+
+.foto {
+  background: url("../img/stgo_skyline.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }
 
 .bottom-left {
@@ -8131,11 +8137,15 @@ body {
   width: 100vw;
 }
 
+.about-section {
+  background-color: #0064a0;
+}
+
 .review-section {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  background-color: #0064a0;
-  color: #000000;
+  background-color: #2a2a2a;
+  color: #ffffff;
   width: 100vw;
 }
 .review-section .card {
@@ -8144,14 +8154,7 @@ body {
 }
 .review-section .card-reveal {
   background-color: #66b8d9;
-}
-
-.left {
-  left: 10px;
-}
-
-.right {
-  right: 10px;
+  color: #000000;
 }
 
 .span-text {
@@ -8173,30 +8176,18 @@ body {
   color: #66b8d9;
 }
 
-.review-section {
-  background-color: #2a2a2a;
-}
-
-h3 {
-  color: #ffffff;
-}
-
-.carousel .card {
-  background-color: #2a2a2a;
-}
-.carousel a {
-  background-color: #144659;
-}
-.carousel .card-reveal {
+.consulting-section {
   background-color: #0064a0;
   color: #ffffff;
+  padding-bottom: 50px;
 }
 
-.consulting-section {
-  background-color: #144659;
+.icon {
+  height: 50px;
+  width: 50px;
 }
 
-.words-section {
+.contact-section {
   background: linear-gradient(135deg, black 25%, transparent 25%) -50px 0, linear-gradient(225deg, black 25%, transparent 25%) -50px 0, linear-gradient(315deg, black 25%, transparent 25%), linear-gradient(45deg, black 25%, transparent 25%);
   background-size: 2em 2em;
   background-color: #232323;
