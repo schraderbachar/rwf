@@ -8,33 +8,13 @@
 @import "components/normalize";
 // components
 @import "components/global";
-@import "components/badges";
 @import "components/icons-material-design";
 @import "components/grid";
 @import "components/navbar";
 @import "components/typography";
-@import "components/transitions";
 @import "components/cards";
-@import "components/toast";
-@import "components/tabs";
-@import "components/tooltip";
 @import "components/buttons";
-@import "components/dropdown";
 @import "components/waves";
-@import "components/modal";
-@import "components/collapsible";
-@import "components/chips";
-@import "components/materialbox";
-@import "components/forms/forms";
-@import "components/table_of_contents";
-@import "components/sidenav";
-@import "components/preloader";
-@import "components/slider";
-@import "components/carousel";
-@import "components/tapTarget";
-@import "components/pulse";
-@import "components/datepicker";
-@import "components/timepicker";
 @import url('https://fonts.googleapis.com/css?family=Ruda:900');
  .logo{
     height: 55px;
@@ -46,6 +26,9 @@
  body{
      background-color: $primary-color;
      flex-direction: column;
+ }
+ .btn{
+     border-radius: 4px;
  }
 
 //values section
@@ -64,10 +47,6 @@
     background-size: cover;
     height: 100vh;
     position: relative;
-    
-    
-
-  
 }
 .bottom-left{
     position: absolute;
@@ -82,21 +61,21 @@
 
 //who we are section
 .who-section{
-    background-color: $quaternary;
+    background-color: $primary-color;
+    color: #ffffff;
     width: 100vw;
+    .card{
+        color: #000000;
+    }
 }
 
 
-//about section
-.about-section{
-    background-color: $secondary-color;
-}
 
 //review section
 .review-section{
     font-family: $monst;
     font-weight: $flight;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     color: #ffffff;
     width: 100vw;
     .card{
@@ -118,27 +97,24 @@
     //modal button
     background-color: $tertiary;
 }
-.modal{
-    background-color: $primary-color;
-    color: $quaternary;
-    .modal-footer{
-    background-color: $primary-color;
-    .btn-flat{
-        color: $quaternary;
-    }
-}
-}
+
 //consulting section
 .consulting-section{
-    background-color: $secondary-color;
+    background-color: $primary-color;
     color: #ffffff;
     padding-bottom: 50px;
+    .card{
+        background-color: $secondary-color;
+    }
 }
 
 .icon{
+    height: 100px;
+    width: 100px;
+}
+.footer-icon{
     height: 50px;
     width: 50px;
-    
 }
 //words and contact form section
 .contact-section{
@@ -175,5 +151,21 @@
         left: 50%;
     //    overflow-wrap: row;
        max-width: 80vw;
+    }
+    .values-section{
+        font-size: 94px;
+    }
+}
+//small desktop and up 
+@media only screen and (min-width: $ldesk){
+    .middle{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    //    overflow-wrap: row;
+       max-width: 80vw;
+    }
+    .values-section{
+        font-size: 5rem;
     }
 }
