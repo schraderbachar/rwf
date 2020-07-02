@@ -5015,16 +5015,18 @@ body {
 }
 
 .who-section {
+  font-family: "Libre Baskerville", serif;
   background-color: #2a2a2a;
   color: #ffffff;
   width: 100vw;
 }
 .who-section .card {
   color: #000000;
+  font-family: "Montserrat", sans-serif;
 }
 
 .review-section {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 300;
   background-color: #0064a0;
   color: #ffffff;
@@ -5033,6 +5035,7 @@ body {
 .review-section .card {
   background-color: #144659;
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 .review-section .card-reveal {
   background-color: #66b8d9;
@@ -5051,9 +5054,11 @@ body {
   background-color: #2a2a2a;
   color: #ffffff;
   padding-bottom: 50px;
+  font-family: "Libre Baskerville", serif;
 }
 .consulting-section .card {
   background-color: #0064a0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .icon {
@@ -5071,6 +5076,7 @@ body {
   background-size: 2em 2em;
   background-color: #232323;
   color: #ffffff;
+  font-family: "Libre Baskerville", serif;
 }
 
 @media only screen and (min-width: 600px) {

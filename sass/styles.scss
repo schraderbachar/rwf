@@ -61,11 +61,13 @@
 
 //who we are section
 .who-section{
+    font-family: $libre;
     background-color: $primary-color;
     color: #ffffff;
     width: 100vw;
     .card{
         color: #000000;
+        font-family: $monst
     }
 }
 
@@ -73,7 +75,7 @@
 
 //review section
 .review-section{
-    font-family: $monst;
+    font-family: $libre;
     font-weight: $flight;
     background-color: $secondary-color;
     color: #ffffff;
@@ -81,6 +83,7 @@
     .card{
         background-color: $tertiary;
         color: #ffffff;
+        font-family: $monst;
     }
     .card-reveal{
         background-color: $quaternary;
@@ -103,8 +106,10 @@
     background-color: $primary-color;
     color: #ffffff;
     padding-bottom: 50px;
+    font-family: $libre;
     .card{
         background-color: $secondary-color;
+        font-family: $monst;
     }
 }
 
@@ -127,6 +132,7 @@
     background-size: 2em 2em;
     background-color: #232323;
     color: #ffffff;
+    font-family: $libre;
       
 }
 
@@ -154,6 +160,7 @@
     }
     .values-section{
         font-size: 94px;
+        
     }
 }
 //small desktop and up 
@@ -167,5 +174,6 @@
     }
     .values-section{
         font-size: 5rem;
+        
     }
 }
