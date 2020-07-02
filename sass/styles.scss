@@ -23,6 +23,9 @@
  }
 
  //html
+ .html{
+     overflow-x: hidden;
+ }
  body{
      background-color: $primary-color;
      flex-direction: column;
@@ -133,6 +136,7 @@
     background-color: #232323;
     color: #ffffff;
     font-family: $libre;
+    width: 100vw;
       
 }
 

@@ -4976,6 +4976,10 @@ button.btn-floating {
   top: 0%;
 }
 
+.html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #2a2a2a;
   flex-direction: column;
@@ -5077,6 +5081,7 @@ body {
   background-color: #232323;
   color: #ffffff;
   font-family: "Libre Baskerville", serif;
+  width: 100vw;
 }
 
 @media only screen and (min-width: 600px) {
