@@ -46,7 +46,7 @@
    
 }
 .foto{
-    background: url('../img/stgo_skyline.jpg') no-repeat fixed;
+    background: url('../img/lighthouse.jpg') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -101,7 +101,8 @@
 }
 .mbtn{
     //modal button
-    background-color: $tertiary;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 //consulting section
@@ -123,6 +124,7 @@
 .footer-icon{
     height: 50px;
     width: 50px;
+    background-color: white;
 }
 //words and contact form section
 .contact-section{
@@ -139,11 +141,25 @@
     width: 100vw;
       
 }
-
-
+//mobile phones and up
+@media only screen and (min-width: $landmobile){
+    .foto{
+        background: url('../img/lighthouse.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    .middle{
+        position: absolute;
+        bottom: 30%;
+        
+    }
+}
 
 //tablet and up 
 @media only screen and (min-width: $tablet){
+    
     .middle{
         position: absolute;
         top: 40%;
@@ -167,11 +183,12 @@
         
     }
 }
-//small desktop and up 
+//large desktop and up 
 @media only screen and (min-width: $ldesk){
+
     .middle{
         position: absolute;
-        top: 30%;
+        top: 40%;
         left: 50%;
     //    overflow-wrap: row;
        max-width: 80vw;
