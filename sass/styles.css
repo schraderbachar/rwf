@@ -5018,6 +5018,16 @@ body {
   left: 10%;
 }
 
+.bottom {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.midButton {
+  font-family: "Libre Baskerville", serif !important;
+}
+
 .who-section {
   font-family: "Libre Baskerville", serif;
   background-color: #2a2a2a;
