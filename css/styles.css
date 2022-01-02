@@ -1,49 +1,35 @@
-@charset "UTF-8";
-// Color
-@import "components/color-variables";
-@import "components/color-classes";
-// Variables;
-@import "components/variables";
-// Reset
-@import "components/normalize";
-// components
-@import "components/global";
-@import "components/icons-material-design";
-@import "components/grid";
-@import "components/navbar";
-@import "components/typography";
-@import "components/cards";
-@import "components/buttons";
-@import "components/waves";
-@import url('https://fonts.googleapis.com/css?family=Ruda:900');
- .logo{
+.logo{
     height: 55px;
      background-position: center;
     top: 0%;
  }
 
- //html
+ /*html */
  .html{
      overflow-x: hidden;
  }
  body{
-     background-color: $primary-color;
+     background-color: rgb(42,42,42);
      flex-direction: column;
  }
  .btn{
      border-radius: 4px;
  }
 
-//values section
+ .section{
+     width: 100%;
+     height: 100%;
+ }
+
+/* values section */
 .values-section{
-    font-family: $libre;
-    background-color: $primary-color;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(42,42,42);
     color: #ffffff;
     height: 90vh;
     width: 100vw;
-    background-color: $secondary-color;
+    background-color: rgb(0,100,160);
     opacity: 0.8;
-   
 }
 .foto{
     background: url('../img/lighthouse.jpg') no-repeat fixed;
@@ -68,63 +54,71 @@
     left: 10%;
 }
 
-.midButton{
-    font-family: $libre !important;
-}
+ #bannerText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  } 
 
-//who we are section
+/* who we are section */
 .who-section{
-    font-family: $libre;
-    background-color: $primary-color;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(42,42,42);
     color: #ffffff;
     width: 100vw;
-    .card{
-        color: #000000;
-        font-family: $monst
-    }
 }
 
+.who-section .card {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.card-pic{
+   max-width: 540px;
+    height: auto;
+}
 
-//review section
+/* review section */
 .review-section{
-    font-family: $libre;
-    font-weight: $flight;
-    background-color: $secondary-color;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    background-color: rgb(0,100,160);
     color: #ffffff;
     width: 100vw;
-    .card{
-        background-color: $tertiary;
-        color: #ffffff;
-        font-family: $monst;
-    }
-    .card-reveal{
-        background-color: $quaternary;
-        color: #000000;
-    }
 }
 
+.review-section .card{
+    background-color:rgb(20, 70, 89);
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.review-section .card-reveal{
+    background-color: rgb(102, 184, 217);
+    color: #000000;
+}
 
 .span-text{
-    color: $quaternary !important;
+    color: rgb(102, 184, 217) !important;
 }
 .mbtn{
-    //modal button
+    /* //modal button */
     background-color: #ffffff;
     color: #000000;
 }
 
-//consulting section
+/* consulting section */
 .consulting-section{
-    background-color: $primary-color;
+    background-color: rgb(42,42,42);
     color: #ffffff;
     padding-bottom: 50px;
-    font-family: $libre;
-    .card{
-        background-color: $secondary-color;
-        font-family: $monst;
-    }
+    font-family: 'Libre Baskerville', serif;
+}
+
+.consulting-section .card{
+    background-color: rgb(0,100,160);
+    font-family: 'Montserrat', sans-serif;   
 }
 
 .icon{
@@ -136,9 +130,8 @@
     width: 50px;
     background-color: white;
 }
-//words and contact form section
+/* words and contact form section */
 .contact-section{
-    
     background: 
     linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
@@ -147,12 +140,11 @@
     background-size: 2em 2em;
     background-color: #232323;
     color: #ffffff;
-    font-family: $libre;
+    font-family: 'Libre Baskerville', serif;
     width: 100vw;
-      
 }
-//mobile phones and up
-@media only screen and (min-width: $landmobile){
+/* mobile phones and up */
+@media only screen and (min-width: 480px){
     .foto{
         background: url('../img/lighthouse.jpg');
         background-size: cover;
@@ -167,40 +159,33 @@
     }
 }
 
-//tablet and up 
-@media only screen and (min-width: $tablet){
-    
+/* tablet and up  */
+@media only screen and (min-width: 600px){
     .middle{
         position: absolute;
         top: 40%;
         left: 50%;
-    //    overflow-wrap: row;
        max-width: 90vw;
     }
-  
 }
-//small desktop and up 
-@media only screen and (min-width: $sdesk){
+/* small desktop and up  */
+@media only screen and (min-width: 980px){
     .middle{
         position: absolute;
         top: 40%;
         left: 50%;
-    //    overflow-wrap: row;
        max-width: 80vw;
     }
     .values-section{
         font-size: 94px;
-        
     }
 }
-//large desktop and up 
-@media only screen and (min-width: $ldesk){
-
+/* large desktop and up  */
+@media only screen and (min-width: 1200px){
     .middle{
         position: absolute;
         top: 40%;
         left: 50%;
-    //    overflow-wrap: row;
        max-width: 80vw;
     }
     .values-section{

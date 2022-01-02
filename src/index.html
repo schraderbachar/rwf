@@ -13,7 +13,8 @@
 
   gtag('config', 'UA-134094944-3');
 </script>
-
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--google fonts-->
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&display=swap"
@@ -21,10 +22,9 @@
     <!--icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--fadein-->
-    <link rel="stylesheet" href="../sass/animate.css">
+    <link rel="stylesheet" href="../css/animate.css">
     <!--my stylesheet-->
-    <link rel="stylesheet" href="../sass/styles.css">
-    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
     <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>RWF Media</title>
@@ -44,26 +44,22 @@
     <!--values seciton-->
     <section class="section values-section scrollspy foto" id="values">
 
-        <div class="container">
-            <div class="row">
-                <div class="col s12 middle wow bounceInDown">
-                    <h2 id="bannerText">RWF Media: Guiding you to Digital Success</h2>
+        <div class="container-fluid">
+                <div>
+                    <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Guiding you to Digital Success</h1>
                 </div>
-
-            </div>
             <div class="row">
                 <div class="col s4 bottom-left wow bounceInUp">
                     <a href="#who" id="tour" class="btn mbtn waves-light waves-effect">Take a tour</a>
                 </div>
                 <div class="col s4 bottom-right wow bounceInUp">
-                    <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">Let's Start </a>
+                    <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">Let's Start</a>
                 </div>
                 <div class="col s4 bottom wow bounceInUp">
-                    <button class="btn mbtn waves-light waves-effect midButton" onclick="convertToSpanish()">Español</button>
+                    <button class="btn mbtn waves-light waves-effect" onclick="convertToSpanish()">Español</button>
                 </div>
                 
             </div>
-            
         </div>
 
     </section>
@@ -78,36 +74,32 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col s12 m8 offset-m2 center">
-                    <div class="card horizontal wow slideInLeft">
-                        <div class="card-image">
-                            <img src="../img/face.png">
-                            <p>JJ SchraderBachar</p>
+                <div class="card horizontal wow slideInLeft" style="max-width: 500px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/face.png" class="img-fluid rounded-start" alt="Photo of JJ">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">JJ SchraderBachar</h5>
+                          <p class="card-text" id="JJ">JJ is an experienced web developer and social media manager who loves to create
+                            websites and see your social media pages grow. He loves seeing small businesses
+                            getting the recognition they deserve and acheive their goals. He also speaks fluent spanish and intermediate
+                            german.</p>
+                          <p class="card-text"><a href="http://schraderbachar.com" target="_blank" id="work">See his work</a></p>
                         </div>
-                        <div class="card-stacked">
-                            <div class="card-content left-align">
-                                <p id="JJ">JJ is an experienced web developer and social media manager who loves to create
-                                    websites and see your social media pages grow. He loves seeing small businesses
-                                    getting the recognition they deserve and acheive their goals. He also speaks fluent spanish and intermediate
-                                    german.</p>
-                            </div>
-                            <p><a href="http://schraderbachar.com" target="_blank" id="work">See his work</a></p>
-                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
             </div>
         </div>
-
-
-
-
-
     </section>
 
 
 
     <!--review section-->
     <!-- <section class="section review-section scrollspy">
+
         <div class="container">
             <div class="row">
                 <div class="col s12 center wow fadeIn">
@@ -115,10 +107,10 @@
                 </div>
             </div>
 
-            <div class="row">
-                <!-- <div class="col s12 m5 push-m3"> -->
-                    <!--card one-->
-                    <!-- <div class="card z-depth-2 wow fadeInLeft hoverable">
+            <div class="row"> 
+                 <div class="col s12 m5 push-m3"> 
+                    card one
+                     <div class="card z-depth-2 wow fadeInLeft hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="../img/cdsm.png">
                         </div>
@@ -144,10 +136,10 @@
 
                         </div>
                     </div> 
-                </div> --> 
-                <!-- <div class="col s12 m5 push-m3"> -->
-                    <!--card two-->
-                   <!-- <div class="card z-depth-2 wow fadeInLeft hoverable">
+                </div>  
+                 <div class="col s12 m5 push-m3"> 
+                    card two
+                    <div class="card z-depth-2 wow fadeInLeft hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <a href="http://psicologia-integral.com/"><img class="activator" src="../img/pi.png"></a>
                         </div>
@@ -182,44 +174,45 @@
 
         </div>
     </section> -->
+    
     <!--consulting-->
-    <section class="section consulting-section scrollspy" id="consulting">
+    <section class="consulting-section scrollspy" id="consulting">
 
         <div class="container valign-wrapper center-align">
             <div class="row">
                 <div class="col s12 center wow fadeIn">
-                    <h3 id="offer">What We Offer</h3>
+                    <h1 id="offer">What We Offer</h1>
                 </div>
 
 
 
                 <div class="row">
                     <div class="col s12 m4 wow pull-l2 fadeIn">
-                        <div class="card hoverable">
-                            <div class="card-content white-text center">
+                        <div class="card">
+                            <div class="card-body white-text center">
                                 <span class="card-title" id="wd">Web Development</span>
                                 <p><img src="../img/seo.png" class="icon center-align"></p>
-                                <p class="left-align" id="wdL">Have a menu? What about new products that you want your customers
+                                <p class="left-align card-text" id="wdL">Have a menu? What about new products that you want your customers
                                     to know about? Upcoming Deals? We can show all of that and more on your website. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4 wow fadeIn">
-                        <div class="card hoverable">
-                            <div class="card-content white-text center">
+                        <div class="card">
+                            <div class="card-body white-text center">
                                 <span class="card-title" id="smm">Social Media Marketing</span>
                                 <p><img src="../img/change.svg" class="icon center-align"></p>
-                                <p class="left-align" id="smmL" >We get it. You have every intention of running an amazing social
+                                <p class="left-align card-text" id="smmL" >We get it. You have every intention of running an amazing social
                                     medial, you just don't have the time. That's where we come in. We do the posting,
                                     engaging, and connecting like you would while you run your successful business.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4 push-l2 wow fadeIn">
-                        <div class="card hoverable">
-                            <div class="card-content white-text center">
+                        <div class="card">
+                            <div class="card-body white-text center">
                                 <span class="card-title" id="dm">Digital Marketing</span>
-                                <p><img class="icon center-align" src="../img/team-management.svg"></p>
+                                <p><img class="icon center-align card-text" src="../img/team-management.svg"></p>
                                 <p class="left-align" id="dmL">Online ads can be very overwhelming. SEO, PPC, CPC, what does it
                                     all mean?!?!?! Don't worry we've got you covered. With our Google Certified
                                     strategies, your website will appear at the top of every search.</p>
@@ -277,7 +270,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2020 All Rights Reserved
+                © 2022 All Rights Reserved
             </div>
         </div>
     </footer>
@@ -294,11 +287,14 @@
 
    <!-- Compiled and minified JavaScript -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <!-- Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--wow.js-->
     <script src="../js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <!--custom js-->
     <script type="text/javascript" src="../js/index.js"></script>
+
 
 </body>
 
