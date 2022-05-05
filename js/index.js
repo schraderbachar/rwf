@@ -4,11 +4,15 @@
   });
 
   function convertToSpanish() {
+
     var banner = document.getElementById("bannerText")
     banner.innerHTML = "RWF Media: Te guiamos al éxito"
 
     var tourText = document.getElementById("tour")
     tourText.innerHTML = "Toma un tour" 
+
+    document.getElementById("english").style.display="initial"
+    document.getElementById("span").style.display="none"
 
     var startText = document.getElementById("start")
     startText.innerHTML = "Empecemos" 
@@ -43,5 +47,48 @@
     var dmLText = document.getElementById("dmL")
     dmLText.innerHTML = "Los advertidos online puede ser muy acuciante y que signifca todos los acrónimos? ¿SEO? ¿PPC? ¿CPC? No te preocupes, te tenemos. Con nuestras estrategias certificados por Google, tu sitio aparecerá hasta arriba de cada búsqueda."
   }
-  
+
+  function convertToEnglish() {
+    var banner = document.getElementById("bannerText")
+    banner.innerHTML = "RWF Media: Guiding you to Digital Success"
+
+    var tourText = document.getElementById("tour")
+    tourText.innerHTML = "Take a Tour" 
+
+    document.getElementById("english").style.display="none"
+    document.getElementById("span").style.display="initial"
+
+    var startText = document.getElementById("start")
+    startText.innerHTML = "Lets Start" 
+
+    var qstext = document.getElementById("qs")
+    qstext.innerHTML = "Who we are"
+
+    var jText = document.getElementById("JJ")
+    jText.innerHTML = "JJ is an experienced web developer and social media manager who loves to create websites and see your social media pages grow. He loves seeing small businesses getting the recognition they deserve and acheive their goals. He also speaks fluent spanish and intermediate german."
+
+    var workText = document.getElementById("work")
+    workText.innerHTML = "See his work"    
+    
+    var offerText = document.getElementById("offer")
+    offerText.innerHTML = "What We Offer"
+
+    var wdText = document.getElementById("wd")
+    wdText.innerHTML = "Web Development"
+
+    var wdLText = document.getElementById("wdL")
+    wdLText.innerHTML = "Have a menu? What about new products that you want your customers to know about? Upcoming Deals? We can show all of that and more on your website."
+
+    var smmText = document.getElementById("smm")
+    smmText.innerHTML = "Social Media Marketing"
+
+    var smmLText = document.getElementById("smmL")
+    smmLText.innerHTML = "We get it. You have every intention of running an amazing social medial, you just don't have the time. That's where we come in. We do the posting, engaging, and connecting like you would while you run your successful business."
+
+    var dmText = document.getElementById("dm")
+    dmText.innerHTML = "Digital Marketing"
+
+    var dmLText = document.getElementById("dmL")
+    dmLText.innerHTML = "Online ads can be very overwhelming. SEO, PPC, CPC, what does it all mean?!?!?! Don't worry we've got you covered. With our Google Certified strategies, your website will appear at the top of every search."
+  }
 
