@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>RWF Media</title>
+    <title>Small Business Web Design | RWF Media</title>
 </head>
 
 <body id="top">
@@ -39,26 +39,26 @@
         <div class="container">
             <div class="nav-wrapper">
                 <a href="#top" class="brand-logo center">
-                    <img class="logo" src="../img/logo.jpg" alt="">
+                    <img class="logo" src="../img/logo.jpg" alt="Lighthouse guiding you to success">
                 </a>
             </div>
         </div>
     </nav>
     <!--values seciton-->
-    <section class="section values-section scrollspy foto" id="values">
+    <section class=" values-section scrollspy foto" id="values">
 
         <div class="container-fluid">
             <div>
                 <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Guiding you to Digital Success</h1>
             </div>
             <div class="row">
-                <div class="col s4 bottom-left wow bounceInUp">
+                <div class="col-sm-4 bottom-left wow bounceInUp">
                     <a href="#who" id="tour" class="btn mbtn waves-light waves-effect">Take a tour</a>
                 </div>
-                <div class="col s4 bottom-right wow bounceInUp">
+                <div class="col-sm-4 bottom-right wow bounceInUp">
                     <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">Let's Start</a>
                 </div>
-                <div class="col s4 bottom wow bounceInUp">
+                <div class="col-sm-4 bottom wow bounceInUp">
                     <button class="btn mbtn waves-light waves-effect" id="span"
                         onclick="convertToSpanish()">Español</button>
                     <button class="btn mbtn waves-light waves-effect" id="english" style="display: none;"
@@ -70,32 +70,38 @@
 
     </section>
 
-    <section class="section who-section scrollspy" id="who">
+    <section class=" who-section scrollspy" id="who">
         <div class="container">
             <div class="row">
-                <div class="col s12 center wow bounceInDown">
-                    <h1 id="qs">Who we are</h1>
+                <div class="col-sm-12 center wow bounceInDown">
+                    <h1 class="mt-1 mb-1" id="qs">Who we are</h1>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="card horizontal wow slideInLeft" style="max-width: 500px;">
-                    <div class="row g-0">
+                <div class="card mb-3 horizontal wow slideInLeft">
+                    <div class="row">
                         <div class="col-md-4">
                             <img src="../img/face.png" class="img-fluid rounded-start" alt="Photo of JJ">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">JJ SchraderBachar</h5>
-                                <p class="card-text" id="JJ">JJ is an experienced web developer and social media manager
-                                    who loves to create
-                                    websites and see your social media pages grow. He loves seeing small businesses
-                                    getting the recognition they deserve and acheive their goals. He also speaks fluent
-                                    spanish and intermediate
-                                    german.</p>
-                                <p class="card-text"><a href="http://schraderbachar.com" target="_blank" id="work">See
-                                        his work</a></p>
+                                <h4 class="card-title">JJ SchraderBachar</h4>
+                                <h6>CEO / Founder </h6>
+                                <h6 class="card-text" id="JJ">JJ is an experienced web developer and social media
+                                    manager who loves to create websites and see your social media pages grow. He
+                                    loves seeing small businesses getting the recognition they deserve and acheive
+                                    their goals. He also speaks fluent spanish and intermediate german.</h6>
+                                <h6 class="card-text" id="freetime">In his free time JJ, loves spending time outdoors
+                                    and
+                                    traveling.
+                                    Some of his favorite places are Chile and Costa Rica. His next big adventure
+                                    is
+                                    going to Europe in summer of 2022</h6>
+                                <p class="card-text"><a href="http://schraderbachar.com" target="_blank"
+                                        id="work"><button type="button" class="btn btn-color">See
+                                            his work</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +113,7 @@
 
 
     <!--review section-->
-    <!-- <section class="section review-section scrollspy">
+    <!-- <section class=" review-section scrollspy">
 
         <div class="container">
             <div class="row">
@@ -187,21 +193,19 @@
     <!--consulting-->
     <section class="consulting-section scrollspy" id="consulting">
 
-        <div class="container valign-wrapper center-align">
+        <div class="container  center align-wrapper center-align">
             <div class="row">
-                <div class="col-sm-12 center wow fadeIn">
+                <div class="col-sm-12 wow fadeIn">
                     <h1 id="offer">What We Offer</h1>
                 </div>
-
-
-
-                <div class="row">
+                <div class="row flex-thirds">
                     <div class="col-sm-12 col-md-4 wow pull-l2 fadeIn">
-                        <div class="card">
+                        <div class="card h-100">
                             <div class="card-body white-text center">
                                 <span class="card-title" id="wd">Web Development</span>
-                                <p><img src="../img/seo.png" class="icon center-align"></p>
-                                <p class="left-align card-text" id="wdL">Have a menu? What about new products that you
+                                <p><img src="../img/seo.png" class="icon"></p>
+                                <p id="wdL">Have a menu? What about new products that
+                                    you
                                     want your customers
                                     to know about? Upcoming Deals? We can show all of that and more on your website.
                                 </p>
@@ -209,11 +213,12 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 wow fadeIn">
-                        <div class="card">
+                        <div class="card h-100">
                             <div class="card-body white-text center">
                                 <span class="card-title" id="smm">Social Media Marketing</span>
-                                <p><img src="../img/change.svg" class="icon center-align"></p>
-                                <p class="left-align card-text" id="smmL">We get it. You have every intention of running
+                                <p><img src="../img/change.svg" class="icon"></p>
+                                <p id="smmL">We get it. You have every intention of
+                                    running
                                     an amazing social
                                     medial, you just don't have the time. That's where we come in. We do the posting,
                                     engaging, and connecting like you would while you run your successful business.</p>
@@ -221,11 +226,12 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 push-l2 wow fadeIn">
-                        <div class="card">
+                        <div class="card h-100">
                             <div class="card-body white-text center">
                                 <span class="card-title" id="dm">Digital Marketing</span>
-                                <p><img class="icon center-align card-text" src="../img/team-management.svg"></p>
-                                <p class="left-align" id="dmL">Online ads can be very overwhelming. SEO, PPC, CPC, what
+                                <p><img class="icon card-text" src="../img/team-management.svg"></p>
+                                <p class="text-left-align" id="dmL">Online ads can be very overwhelming. SEO, PPC, CPC,
+                                    what
                                     does it
                                     all mean?!?!?! Don't worry we've got you covered. With our Google Certified
                                     strategies, your website will appear at the top of every search.</p>
@@ -235,7 +241,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 center wow fadeIn">
-                        <a href="#contact" class="btn waves-effect waves-light mbtn">Get a free quote!</a>
+                        <a href="#contact" class="btn waves-effect waves-light mbtn" id="cal">Schedule a
+                            consultation</a>
                     </div>
                 </div>
 
@@ -243,10 +250,10 @@
 
     </section>
     <!--words section-->
-    <section class="section contact-section scrollspy" id="contact">
+    <section class=" contact-section scrollspy" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6 left-align wow fadeInLeft">
+                <div class="col-sm-12 col-md-6 mt-2 left-align wow fadeInLeft">
                     <span class="span-text">
                         <h1>
                             Reliable
@@ -255,10 +262,13 @@
                     </span>
                     <h1>Different languages. <span class="span-text">Same Values.</span></h1>
                 </div>
-                <div class="col-sm-12 col-md-6 wow fadeInRight pull-s1">
-                    <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSeCGOXpJXVSCkQbOn5KbzM_8SvUQxz4H9gKrLve7oTtlHSlSg/viewform?embedded=true"
-                        width="400" height="1153" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <div class="col-sm-12 col-md-6 mt-2 wow fadeInRight pull-s1">
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/rwfmediadsm"
+                        style="min-width:320px;height:630px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                        async></script>
+                    <!-- Calendly inline widget end -->
                 </div>
             </div>
         </div>
@@ -269,10 +279,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <h5 class="white-text">RWF Media</h5>
-                    <p class="grey-text text-lighten-4">Reliable Wahr Fidedigno. Different languages. Same Values.</p>
+                    <h5>RWF Media</h5>
+                    <p>Reliable Wahr Fidedigno. Different languages. Same Values.</p>
                 </div>
-                <h5 class="white-text"></h5>
+                <h5></h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3 hoverable"
                             href="https://www.facebook.com/RWF-Media-106875831072078" target="_blank"><img
