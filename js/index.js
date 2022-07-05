@@ -1,5 +1,5 @@
-  $(document).ready(function(){
-    //scrollspy
-    $('.scrollspy').scrollSpy();
-  });
+$(document).ready(function () {
+  //scrollspy
+  $('.scrollspy').scrollSpy();
+});
 
