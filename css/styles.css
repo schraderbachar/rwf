@@ -119,6 +119,9 @@ a{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
+.consulting-section p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .icon {
     height: 100px;
