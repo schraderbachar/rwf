@@ -1,18 +1,16 @@
 /*html */
 html {
     scroll-behavior: smooth;
-    overflow: scroll;
     overflow-x: hidden;
   }
 ::-webkit-scrollbar {
     width: 0px;
-    /* Remove scrollbar space */
     background: transparent;
-    /* crollbar invisible */
   }
 body {
     background-color: rgb(42, 42, 42);
     flex-direction: column;
+    overflow: scroll;
 }
 .btn {
     border-radius: 4px;
@@ -107,21 +105,13 @@ a{
 .consulting-section {
     background-color: rgb(42, 42, 42);
     color: #ffffff;
-    padding-bottom: 50px;
     font-family: 'Libre Baskerville', serif;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.flex-thirds {
-    display: flex;
-    justify-content: space-around;
-    align-content: stretch;
-    flex-wrap: wrap;
-    max-width: 1745px;
-    margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+.services{
+    position: relative;
 }
 
 .consulting-section .card {
@@ -155,28 +145,40 @@ a{
     background-color: rgb(0, 100, 160);
     color: #ffffff;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .review-section .card {
     background-color: rgb(20, 70, 89);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+.piCard .accordion-button{
+    color: #000;
+}
+.piBtn{
+    background-color: #ffffff;
+}
+.dwmmCard{
+    background-color: #ffffff !important;
+    color: #000 !important;
+}
+.dwmmCard .accordion-button, .dwmmCard .btn{
+    background-color: rgb(20, 70, 89);
+    color: #ffffff;
+}
+
+.review-section .card .accordion-body {
+   color: #000000;
 }
 
 .review-section .card-reveal {
     background-color: rgb(102, 184, 217);
     color: #000000;
 }
-
 .span-text {
     color: rgb(102, 184, 217) !important;
-}
-
-.mbtn {
-    /* //modal button */
-    background-color: #ffffff;
-    color: #000000;
 }
 
 /* words and contact form section */
@@ -191,7 +193,7 @@ a{
     color: #ffffff;
     font-family: 'Libre Baskerville', serif;
     width: 100vw;
-    height: 75vh;
+    min-height: 75vh;
 }
 /* who we are section */
 .who-section {
@@ -199,7 +201,7 @@ a{
     background-color: rgb(0, 100, 160);
     color: #ffffff;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .who-section .card {
@@ -226,7 +228,7 @@ a{
 }
 /* mobile phones and up */
 @media only screen and (min-width: 320px) {
-    .foto {
+    .bg-header {
         background: url('../img/lighthouse.jpg');
         background-size: cover;
         background-position: center;

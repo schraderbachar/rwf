@@ -15,8 +15,8 @@
         gtag('config', 'G-Q296HKB3P8');
     </script>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--google fonts-->
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&display=swap"
@@ -92,8 +92,8 @@
             <div class="col-sm-12 wow fadeIn">
                 <h1 id="offer">What We Offer</h1>
             </div>
-            <div class="row flex-thirds">
-                <div class="col-sm-12 col-md-4 wow pull-l2 fadeIn">
+            <div class="row services">
+                <div class="col-sm-12 col-md-4 wow fadeIn">
                     <div class="card h-100">
                         <div class="card-body white-text center">
                             <span class="card-title" id="wd">Website Design & Development for Small Business</span>
@@ -135,57 +135,96 @@
                         consultation</a>
                 </div>
             </div>
-
         </div>
-
 </section>
 <!--review section-->
 <section class="review-section scrollspy" id="review">
-
     <div class="container">
         <div class="row">
-            <div class="col s12 center wow fadeIn">
+            <div class="col-sm-12 center wow fadeIn">
                 <h3>What Our Clients Say</h3>
             </div>
         </div>
-
         <div class="row"> 
-              
-             <div class="col s12 m5 push-m3"> 
-                <!-- card two -->
-                <div class="card z-depth-2 wow fadeInLeft hoverable">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="http://psicologia-integral.com/"><img class="activator" src="../img/pi.png"></a>
+             <div class="col-sm-12 col-md-4"> 
+                <!-- pi card -->
+                <div class="card piCard wow fadeInLeft hoverable">
+                    <img src="img/pi.png" class="card-img-top" alt="Website photo of Psicología Integral">
+                    <div class="card-body">
+                      <h5 class="card-title">Psicología Integral</h5>
+                      <p class="card-text">
+                        <div class="accordion" id="piEn">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="piEnHead">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#piEnCollapse" aria-expanded="true" aria-controls="piEnCollapse">
+                              Review
+                            </button>
+                          </h2>
+                          <div id="piEnCollapse" class="accordion-collapse collapse" aria-labelledby="piEnHead" data-bs-parent="#piEn">
+                            <div class="accordion-body">
+                                I asked RWF Media to update my website; it had old information and was out of date and RWF Media gave recommendations that were in line with what I was looking for. The process was very smooth while working with them with a high attention to the details that I wanted in the site, and it was all done in a timely manner and gave me many innovative ideas for the site. I give five stars to RWF Media for their quality and commitment.
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                          </p>
+                      <a href="http://psicologia-integral.com/" target="_blank" class="btn piBtn">Website</a>
                     </div>
-                    <div class="card-content left-align">
-                        <span class="card-title activator">Psicología Integral</span>
-                        <p><a href="#!" class="activator white-text btn">Testimonial</a> <a href="http://psicologia-integral.com/" target="_blank" class=" white-text btn">Website</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Psicología Integral
-                            <i class="material-icons">close</i>
-                        </span>
-                        <h6>Pschology Firm based in Santiago, Chile "Yo solicite a RWF Media, que me actualizara mi página web; la que mantenía estaba con información antigua y desactualizada y RWF media me hizo recomendaciones que fueron acorde con lo que se estaba buscando. El proceso de trabajar con ellos, fue muy fluido con una amplia calidad de escucha, a tiempo con lo solicitado, con ideas innovadoras para mi sitio.  A RWF media, por su compromiso y calidad de trabajo le doy cinco estrellas como calificación."
-                        </h6>
-                        <h6>
-                        ENGLISH- "I asked RWF Media to update my website; it had old information and was out of date and RWF Media gave recommendations that were in line with what I was looking for. The process was very smooth while working with them with a high attention to the details that I wanted in the site, and it was all done in a timely manner and gave me many innovative ideas for the site. I give five stars to RWF Media for their quality and commitment."
-                        </h6>
-                        <h6>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                            <i class="material-icons">star</i>
-                        </h6>
-
+                  </div>
+             </div>
+             <div class="col-sm-12 col-md-4"> 
+                    <!--dwmm card -->
+                    <div class="card dwmmCard border-secondary wow fadeInLeft hoverable">
+                        <img src="img/dwmm.PNG" class="card-img-top" alt="Dancing with Miss Maddy logo">
+                        <div class="card-body">
+                          <h5 class="card-title">Dancing With Miss Maddy</h5>
+                          <p class="card-text">
+                            <div class="accordion" id="dwmm">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="dwmmHead">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dwmmCollapse" aria-expanded="true" aria-controls="dwmmCollapse">
+                                  Review
+                                </button>
+                              </h2>
+                              <div id="dwmmCollapse" class="accordion-collapse collapse" aria-labelledby="dwmmHead" data-bs-parent="#dwmm">
+                                <div class="accordion-body">
+                                    I was hesitant to work with a Social Media Manager at first but RWF Media truly made the process easy. I saw results almost immediately with increased views and interactions on posts. I am learning so much about how to do what I was already doing better and how to make the most out of my social media platforms. RWF Media allows my brand to shine so I can focus on the things I enjoy most. 
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                              </p>
+                          <a href="https://www.instagram.com/dancingwithmissmaddy/" target="_blank" class="btn">Visit</a>
+                        </div>
+                      </div>
+             </div>
+             <div class="col-sm-12 col-md-4"> 
+                <!-- calma card -->
+                <div class="card calmaCard wow fadeInLeft hoverable">
+                    <img src="" class="card-img-top" alt="Estudio Calma Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Estudio Calma</h5>
+                        <p class="card-text">
+                        <div class="accordion" id="calma">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="calmaHead">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#calmaCollapse" aria-expanded="true" aria-controls="calmaCollapse">
+                                Review
+                            </button>
+                            </h2>
+                            <div id="calmaCollapse" class="accordion-collapse collapse" aria-labelledby="calmaHead" data-bs-parent="#calma">
+                            <div class="accordion-body">
+                                We were very lucky to have JJ work with our team. Thanks to his expertise and his contributions, we've improved our online presence as well as our social media strategy.
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                            </p>
+                        <a href="https://estudiocalma.es/" target="_blank" class="btn piBtn">Website</a>
                     </div>
                 </div>
-            </div> 
+             </div>
         </div>
-
-
-
-
     </div>
 </section>
 
@@ -279,13 +318,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
     <!--wow.js-->
     <script src="../js/wow.min.js"></script>
     <script>new WOW().init();</script>
