@@ -101,6 +101,9 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+section h1{
+    margin-top: 2rem;
+}
 /* consulting section */
 .consulting-section {
     background-color: rgb(42, 42, 42);
@@ -163,11 +166,11 @@ a{
 .piBtn{
     background-color: #ffffff;
 }
-.dwmmCard{
+.dwmmCard, .calmaCard{
     background-color: #ffffff !important;
     color: #000 !important;
 }
-.dwmmCard .accordion-button, .dwmmCard .btn{
+.dwmmCard .accordion-button, .dwmmCard .btn, .calmaCard .accordion-button, .calmaCard .btn{
     background-color: rgb(20, 70, 89);
     color: #ffffff;
 }
@@ -175,15 +178,9 @@ a{
 .review-section .card .accordion-body {
    color: #000000;
 }
-
-.review-section .card-reveal {
-    background-color: rgb(102, 184, 217);
-    color: #000000;
-}
 .span-text {
     color: rgb(102, 184, 217) !important;
 }
-
 /* words and contact form section */
 .contact-section {
     background:
