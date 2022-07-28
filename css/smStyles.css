@@ -110,3 +110,11 @@ h2 {
     width: 100vw;
     min-height: 75vh;
 }
+
+/* up to small tablets*/
+@media only screen and (max-width: 425px) {
+    .smImg {
+        width: 250px;
+        height: 250px;
+    }
+}
