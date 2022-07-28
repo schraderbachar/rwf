@@ -32,7 +32,8 @@ h2 {
 }
 
 /* landing */
-.landing {
+.landing,
+.prices {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: rgb(0, 100, 160);
@@ -41,12 +42,24 @@ h2 {
     min-height: 100vh;
 }
 
+.prices .card {
+    color: #000;
+}
+
+.priceText {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.prices .mbtn {
+    background-color: rgb(20, 70, 89);
+    color: #fff;
+}
+
 .span-land {
     color: #000;
 }
 
 .mbtn {
-    /* //modal button */
     background-color: #ffffff;
     color: #000000;
 }
@@ -63,6 +76,25 @@ h2 {
 /* footer */
 .span-text {
     color: rgb(102, 184, 217) !important;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-icon {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.page-footer {
+    color: #ffffff;
+}
+
+.page-footer ul {
+    list-style-type: none;
 }
 
 .contact-section {
