@@ -2,22 +2,27 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-  }
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
-  }
+}
+
 body {
     background-color: rgb(42, 42, 42);
     flex-direction: column;
     overflow: scroll;
 }
+
 .btn {
     border-radius: 4px;
 }
-a{
+
+a {
     outline: none !important;
 }
+
 /* nav/header */
 .bg-header {
     background: url('../img/lighthouse.jpg') no-repeat fixed;
@@ -26,52 +31,57 @@ a{
     position: relative;
     font-family: 'Libre Baskerville', serif;
     color: #ffffff;
-  }
-  .navbar {
+}
+
+.navbar {
     padding: 3px 16px;
     position: fixed;
     transition: 1000ms ease;
-  }
-  
-  .bg {
+}
+
+.bg {
     background-color: black;
-  }
-  
-  .navbar .navbar-nav .active {
+}
+
+.navbar .navbar-nav .active {
     font-size: 18px;
     font-weight: 600;
-  }
-  
-  .navbar-nav li a {
+}
+
+.navbar-nav li a {
     font-size: 14px;
     font-weight: 400;
     color: white;
     outline: none;
-  }
-  
-  .active {
+}
+
+.active {
     opacity: 1;
-  }
-  
-  .navbar-nav .nav-item .nav-link {
+}
+
+.navbar-nav .nav-item .nav-link {
     transition: 1000ms ease;
-  }
-  
-  .navbar-nav .nav-item .nav-link:hover {
+}
+
+.navbar-nav .nav-item .nav-link:hover {
     transition: 1000ms ease;
     font-size: 18px;
-  }
-  
-  .navbar-dark .navbar-toggler:hover,
-  .navbar-dark .navbar-toggler:active {
+}
+
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:active {
     background-color: rgba(255, 255, 255, 0.2);
     transition: 1000ms ease;
-  }
-  
-  button:focus {
+}
+
+.dropdown-item {
+    color: #000 !important;
+}
+
+button:focus {
     outline: none;
     background-color: rgba(255, 255, 255, 0.1);
-  }
+}
 
 .center {
     text-align: center;
@@ -101,9 +111,11 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-section h1{
+
+section h1 {
     margin-top: 2rem;
 }
+
 /* consulting section */
 .consulting-section {
     background-color: rgb(42, 42, 42);
@@ -113,7 +125,7 @@ section h1{
     min-height: 100vh;
 }
 
-.services{
+.services {
     position: relative;
 }
 
@@ -122,7 +134,8 @@ section h1{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
-.consulting-section p{
+
+.consulting-section p {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -144,6 +157,7 @@ section h1{
 .page-footer ul {
     list-style-type: none;
 }
+
 /* review section */
 .review-section {
     font-family: 'Libre Baskerville', serif;
@@ -160,28 +174,42 @@ section h1{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1rem;
 }
-.piCard .accordion-button{
+
+.piCard .accordion-button {
     color: #000;
 }
-.piBtn{
+
+.piBtn {
     background-color: #ffffff;
 }
-.dwmmCard, .calmaCard{
+
+.dwmmCard,
+.calmaCard {
     background-color: #ffffff !important;
     color: #000 !important;
 }
-.dwmmCard .accordion-button, .dwmmCard .btn, .calmaCard .accordion-button, .calmaCard .btn{
+
+.dwmmCard .accordion-button,
+.dwmmCard .btn,
+.calmaCard .accordion-button,
+.calmaCard .btn {
     background-color: rgb(20, 70, 89);
     color: #ffffff;
 }
 
 .review-section .card .accordion-body {
-   color: #000000;
+    color: #000000;
 }
+
 .span-text {
     color: rgb(102, 184, 217) !important;
 }
+
 /* words and contact form section */
+.span-text {
+    color: rgb(102, 184, 217) !important;
+}
+
 .contact-section {
     background:
         linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
@@ -195,6 +223,7 @@ section h1{
     width: 100vw;
     min-height: 75vh;
 }
+
 /* who we are section */
 .who-section {
     font-family: 'Libre Baskerville', serif;
@@ -226,6 +255,7 @@ section h1{
     background-color: rgb(42, 42, 42);
     color: #ffffff;
 }
+
 /* mobile phones and up */
 @media only screen and (min-width: 320px) {
     .bg-header {
