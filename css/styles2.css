@@ -118,3 +118,11 @@ h2 {
         height: 250px;
     }
 }
+
+/* up to small tablets*/
+@media only screen and (min-width: 425px) {
+    .webImg {
+        width: 375px;
+        height: 375px;
+    }
+}
