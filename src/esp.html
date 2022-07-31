@@ -7,16 +7,17 @@
     <meta name="description"
         content="RWF Media: Te Guiamos al Éxito. Diseño web, servicios de redes sociales y marketing digital para tu negocio pequeño.">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134094944-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134094944-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-134094944-3');
-</script>
+        gtag('config', 'UA-134094944-3');
+    </script>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--google fonts-->
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&display=swap"
@@ -29,174 +30,251 @@
     <link rel="stylesheet" href="../css/styles.css">
     <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>RWF Media en Español</title>
+    <title>RWF Media | &#161;Te Guiamos al Éxito! </title>
 </head>
 
-<body id="top">
-    <!--Nav bar-->
-    <nav class="navbar navbar-light bg-light" id="top">
+<body>
+    <header class="container-fluid bg-header" id="top">
+        <!--Nav bar-->
+        <nav class="navbar navbar-dark bg fixed-top navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
+                aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#top" class="nav-link">
+                            <span class="link-text">RWF Media</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./diseñoWeb.html">Diseño Web</a></li>
+                            <li><a class="dropdown-item" href="./redesSociales.html">Gestion de Redes Sociales</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#review" class="nav-link">
+                            <span class="link-text lang" key="projects">Proyectos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" key="contact">
+                            <span class="link-text lang">Contáctanos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./index.html" target="_blank" class="nav-link" key="contact">
+                            <span class="link-text lang">English</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="../img/logo.jpg" alt="RWF Media logo" width="30" height="24" class="d-inline-block align-text-top">
-            RWF Media
-          </a>
-        </div>
-      </nav>
-    <!-- <nav id="top">
-
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#top" class="brand-logo center">
-                    <img class="logo" src="../img/logo.jpg" alt="">
-                </a>
+            <div>
+                <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Te Guiamos al Éxito</h1>
             </div>
-        </div>
-    </nav> -->
-    <!--values seciton-->
-    <section class="section values-section scrollspy foto" id="values">
-
-        <div class="container-fluid">
-                <div>
-                    <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Te guiamos al éxito Success</h1>
-                </div>
             <div class="row">
-                <div class="col s4 bottom-left wow bounceInUp">
-                    <a href="#who" class="btn mbtn waves-light waves-effect">Toma un tour</a>
+                <div class="col-sm-4 bottom-left wow bounceInUp">
+                    <a href="#who" id="tour" class="btn mbtn waves-light waves-effect">Take a tour</a>
                 </div>
-                <div class="col s4 bottom-right wow bounceInUp">
-                    <a href="#consulting" class="btn mbtn waves-light waves-effect">Empecemos!</a>
+                <div class="col-sm-4 bottom-right wow bounceInUp">
+                    <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">Let's Start</a>
                 </div>
-                
+
             </div>
         </div>
-
-    </section>
-
-    <section class="section who-section scrollspy" id="who">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 center wow bounceInDown">
-                    <h1>Quiénes somos</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="card horizontal wow slideInLeft" style="max-width: 500px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="../img/face.png" class="img-fluid rounded-start" alt="Photo of JJ">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">JJ SchraderBachar</h5>
-                          <p class="card-text" id="JJ">JJ es un desarrollador web y gestor de redes sociales quien ama crear sitios web y crecer tus redes sociales. Especialmente ama cuando crece tu negocio y tener el reconocimiento que merece y cumplir sus metas. También habla español y alemán</p>
-                          <p class="card-text"><a href="http://schraderbachar.com" target="_blank">Ve sus proyectos</a></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!--review section-->
-<section class="section review-section scrollspy">
-
-        <div class="container">
-            <div class="row">
-                <div class="col s12 center wow fadeIn">
-                    <h3>Escucha a nuestros clientes</h3>
-                </div>
-            </div>
-                 <div class="col s12 m5 push-m3"> 
-                    <!-- card two -->
-                    <div class="card z-depth-2 wow fadeInLeft">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <a href="http://psicologia-integral.com/"><img class="activator" src="../img/pi.png"></a>
-                        </div>
-                        <div class="card-content left-align">
-                            <span class="card-title activator">Psicología Integral</span>
-                            <p><a href="#!" class="activator white-text btn">Testimonial</a> <a href="http://psicologia-integral.com/" target="_blank" class=" white-text btn">Website</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title">Psicología Integral
-                                <i class="material-icons">close</i>
-                            </span>
-                            <h6>Pschology Firm based in Santiago, Chile "Yo solicite a RWF Media, que me actualizara mi página web; la que mantenía estaba con información antigua y desactualizada y RWF media me hizo recomendaciones que fueron acorde con lo que se estaba buscando. El proceso de trabajar con ellos, fue muy fluido con una amplia calidad de escucha, a tiempo con lo solicitado, con ideas innovadoras para mi sitio.  A RWF media, por su compromiso y calidad de trabajo le doy cinco estrellas como calificación."
-                            </h6>
-                            <h6>
-                            ENGLISH- "I asked RWF Media to update my website; it had old information and was out of date and RWF Media gave recommendations that were in line with what I was looking for. The process was very smooth while working with them with a high attention to the details that I wanted in the site, and it was all done in a timely manner and gave me many innovative ideas for the site. I give five stars to RWF Media for their quality and commitment."
-                            </h6>
-                            <h6>
-                                <i class="material-icons">star</i>
-                                <i class="material-icons">star</i>
-                                <i class="material-icons">star</i>
-                                <i class="material-icons">star</i>
-                                <i class="material-icons">star</i>
-                            </h6>
-
-                        </div>
-                    </div>
-                </div> 
-            </div>
-
-
-
-
-        </div>
-    </section> 
-    
+    </header>
     <!--consulting-->
     <section class="consulting-section scrollspy" id="consulting">
 
-        <div class="container valign-wrapper center-align">
+        <div class="container  center align-wrapper center-align">
             <div class="row">
-                <div class="col-sm-12 center wow fadeIn">
-                    <h1 id="offer">Nuestros Servicios</h1>
+                <div class="col-sm-12 wow fadeIn">
+                    <h1>Dejános llevar a cabo tus sueños</h1>
                 </div>
-
-
-
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 wow pull-l2 fadeIn">
-                        <div class="card">
-                            <div class="card-body white-text center">
-                                <span class="card-title">Diseño Web</span>
-                                <p><img src="../img/seo.png" class="icon center-align"></p>
-                                <p class="left-align card-text" id="wdL">¿Tienes un menú? ¿O nuevos productos que quieres que sepan tus clientes? ¿Algunas ofertas? Podemos mostrar todo lo que quieras y más en tu sitio web</p>
-                            </div>
-                        </div>
+                <div class="row services">
+                    <div class="col-sm-12 col-md-6 wow fadeIn mb-3">
+                        <!-- source <a href="https://storyset.com/web">Web illustrations by Storyset</a> -->
+                        <img src="../img/webDesign.png" alt="Website Design Image">
+                        <h2>Diseño web para negoicos pequeños</h2>
+                        <p>Your small bussiness website is what attracts or repels potential clients. Let us help you
+                            attract those new ones.</p>
+                        <a href="./webDeisgn.html" target="_blank" class="btn piBtn">Learn More</a>
                     </div>
-                    <div class="col-sm-12 col-md-4 wow fadeIn">
-                        <div class="card">
-                            <div class="card-body white-text center">
-                                <span class="card-title">Marketing de Redes Sociales</span>
-                                <p><img src="../img/change.svg" class="icon center-align"></p>
-                                <p class="left-align card-text">Entendemos que quieres gestionar tus redes sociales pero no hay tiempo, tienes un negocio que te ocupa. Eso es donde llegamos. Hacemos los posts, hablamos con sus clientes y seguidores, como si fueras tú mientras tú gestionas tu negocio.</p>
-                            </div>
-                        </div>
+                    <div class="col-sm-12 col-md-6 wow fadeIn mb-3">
+                        <!-- source <a href="https://storyset.com/online">Online illustrations by Storyset</a> -->
+                        <img src="../img/smImg.png" alt="Social Media Image">
+                        <h2>Gestion de Redes Sociales para tu negocio pequeño</h2>
+                        <p>We take the stresses of managing your online presence off your hands so you can focus on
+                            running your small business. Its that simple.</p>
+                        <a href="./socialMedia.html" target="_blank" class="btn piBtn">Learn More</a>
                     </div>
-                    <div class="col-sm-12 col-md-4 push-l2 wow fadeIn">
-                        <div class="card">
-                            <div class="card-body white-text center">
-                                <span class="card-title" id="dm">Marketing Digital </span>
-                                <p><img class="icon center-align card-text" src="../img/team-management.svg"></p>
-                                <p class="left-align" id="dmL">Los advertidos online puede ser muy acuciante y que signifca todos los acrónimos? ¿SEO? ¿PPC? ¿CPC? No te preocupes, te tenemos. Con nuestras estrategias certificados por Google, tu sitio aparecerá hasta arriba de cada búsqueda.</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 center wow fadeIn">
-                        <a href="#contact" class="btn waves-effect waves-light mbtn">¿Hablamos?</a>
-                    </div>
-                </div>
-
             </div>
-
+    </section>
+    <!--review section-->
+    <section class="review-section scrollspy" id="review">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 center wow fadeIn p-3">
+                    <h2>Escucha a Nuestros Clientes</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <!--dwmm card -->
+                    <div class="card dwmmCard border-secondary wow fadeInLeft">
+                        <img src="../img/dwmm.PNG" class="card-img-top" alt="Dancing with Miss Maddy logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Dancing With Miss Maddy</h5>
+                            <p class="card-text">
+                            <div class="accordion" id="dwmm">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="dwmmHead">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#dwmmCollapse" aria-expanded="true"
+                                            aria-controls="dwmmCollapse">
+                                            Reseña
+                                        </button>
+                                    </h2>
+                                    <div id="dwmmCollapse" class="accordion-collapse collapse"
+                                        aria-labelledby="dwmmHead" data-bs-parent="#dwmm">
+                                        <div class="accordion-body">
+                                            "I was hesitant to work with a Social Media Manager at first but RWF Media
+                                            truly made the process easy. I saw results almost immediately with increased
+                                            views and interactions on posts. I am learning so much about how to do what
+                                            I was already doing better and how to make the most out of my social media
+                                            platforms. RWF Media allows my brand to shine so I can focus on the things I
+                                            enjoy most." -CEO Maddy Ladehoff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <a href="https://www.instagram.com/dancingwithmissmaddy/" target="_blank"
+                                class="btn">Ver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <!-- pi card -->
+                    <div class="card piCard wow fadeInLeft">
+                        <img src="../img/pi.png" class="card-img-top" alt="Website photo of Psicología Integral">
+                        <div class="card-body">
+                            <h5 class="card-title">Psicología Integral</h5>
+                            <p class="card-text">
+                            <div class="accordion" id="piEn">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="piEnHead">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#piEnCollapse" aria-expanded="true"
+                                            aria-controls="piEnCollapse">
+                                            Reseña
+                                        </button>
+                                    </h2>
+                                    <div id="piEnCollapse" class="accordion-collapse collapse"
+                                        aria-labelledby="piEnHead" data-bs-parent="#piEn">
+                                        <div class="accordion-body">
+                                            "Yo solicite a RWF Media, que me actualizara mi
+                                            página web; la que mantenía estaba con información antigua y desactualizada
+                                            y RWF media me
+                                            hizo recomendaciones que fueron acorde con lo que se estaba buscando. El
+                                            proceso de trabajar
+                                            con ellos, fue muy fluido con una amplia calidad de escucha, a tiempo con lo
+                                            solicitado, con
+                                            ideas innovadoras para mi sitio. A RWF media, por su compromiso y calidad de
+                                            trabajo le doy
+                                            cinco estrellas como calificación." -Ps. Carolina Ramírez
+                                            Garay
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <a href="https://psicologia-integral.com/" target="_blank" class="btn piBtn">Ver Web</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <!-- calma card -->
+                    <div class="card calmaCard wow fadeInLeft">
+                        <img src="../img/calma.jpg" class="card-img-top" alt="Estudio Calma Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Estudio Calma</h5>
+                            <p class="card-text">
+                            <div class="accordion" id="calma">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="calmaHead">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#calmaCollapse" aria-expanded="true"
+                                            aria-controls="calmaCollapse">
+                                            Reseña
+                                        </button>
+                                    </h2>
+                                    <div id="calmaCollapse" class="accordion-collapse collapse"
+                                        aria-labelledby="calmaHead" data-bs-parent="#calma">
+                                        <div class="accordion-body">
+                                            "Ha sido una suerte contar con JJ en nuestro estudio. Gracias a sus
+                                            conocimientos y a su aportación, hemos mejorado nuestra presencia en
+                                            internet y hemos renovado la manera de comunicarnos a través de las redes
+                                            sociales" -Juan Luis Lahoz Arquitecto
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <a href="https://estudiocalma.es/" target="_blank" class="btn piBtn">Ver Web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- who we are section -->
+    <section class=" who-section scrollspy" id="who">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 center wow bounceInDown">
+                    <h1 id="qs">Quiénes somos</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card mb-3 horizontal wow slideInLeft">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../img/face.png" class="img-fluid rounded-start" alt="Photo of JJ">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">JJ SchraderBachar</h4>
+                                <h6>CEO / Fundador </h6>
+                                <h6 class="card-text" id="JJ"> A JJ le encant reuinir con dueños de negocios pequeños
+                                    con el fin de crecer su presencia online y ayudar a cumplir sus metas. El mismo es
+                                    un dueño de un negocio pequeño, sabe lo que es dirigir un negocio pequeño para que
+                                    sea exitoso. Ama hablar español con los miembros LatinX de Des Moines y al
+                                    extranjero tambíen./h6>
+                                    <h6 class="card-text" id="freetime">En su tiempo libre, a JJ le encanta pasar el
+                                        tiempo en el aire libre y viajar. Recien llegó de su gran aventura en Europa.
+                                        Algunos de sus paises favoritos son Chile, Costa Rica, Alemania y Grecia. </h6>
+                                    <p class="card-text"><a href="http://schraderbachar.com" target="_blank"
+                                            id="work"><button type="button" class="btn btn-color">Ve sus
+                                                proyectos</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--words section-->
     <section class="section contact-section scrollspy" id="contact">
@@ -209,10 +287,15 @@
                             Wahr
                             Fidedigno</h1>
                     </span>
-                    <h1>Different languages. <span class="span-text">Same Values.</span></h1>
+                    <h1>Idiomas Diferntes. <span class="span-text">Los mismos valores.</span></h1>
                 </div>
-                <div class="col-sm-12 col-md-6 wow fadeInRight pull-s1">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCGOXpJXVSCkQbOn5KbzM_8SvUQxz4H9gKrLve7oTtlHSlSg/viewform?embedded=true" width="400" height="1153" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <div class="col-sm-12 col-md-6 mt-2 wow fadeInRight pull-s1">
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/rwfmediadsm"
+                        style="min-width:320px;height:630px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                        async></script>
+                    <!-- Calendly inline widget end -->
                 </div>
             </div>
         </div>
@@ -224,13 +307,13 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
                     <h5 class="white-text">RWF Media</h5>
-                    <p class="grey-text text-lighten-4">Reliable Wahr Fidedigno. Different languages. Same Values.</p>
+                    <p class="grey-text text-lighten-4">Reliable Wahr Fidedigno. Idiomas Diferntes. Los mismos valores.
+                    </p>
                 </div>
                 <h5 class="white-text"></h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3"
-                            href="https://www.facebook.com/RWF-Media-106875831072078" target="_blank"><img
-                                src="../img/facebook.svg" class="footer-icon" alt=""></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/RWF-Media-106875831072078"
+                            target="_blank"><img src="../img/facebook.svg" class="footer-icon" alt=""></a></li>
                     <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/rwfmedia/"
                             target="_blank"><img src="../img/instagram.svg" alt="" class="footer-icon"></a></li>
             </div>
@@ -242,10 +325,12 @@
         </div>
     </footer>
 
-   <!-- Compiled and minified JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   <!-- Bootstrap -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <!--wow.js-->
     <script src="../js/wow.min.js"></script>
     <script>new WOW().init();</script>
