@@ -175,6 +175,10 @@ section h1 {
     margin-bottom: 1rem;
 }
 
+.piCard {
+    height: 500px;
+}
+
 .piCard .accordion-button {
     color: #000;
 }
@@ -227,7 +231,7 @@ section h1 {
 /* who we are section */
 .who-section {
     font-family: 'Libre Baskerville', serif;
-    background-color: rgb(0, 100, 160);
+    background-color: rgb(42, 42, 42);
     color: #ffffff;
     width: 100vw;
     min-height: 100vh;
@@ -275,6 +279,12 @@ section h1 {
     .flex-thirds {
         margin: 2rem 0;
     }
+
+    .mbtn {
+        /* //modal button */
+        background-color: #ffffff;
+        color: #000000;
+    }
 }
 
 /* tablet and up  */
@@ -312,17 +322,6 @@ section h1 {
 
     .values-section {
         font-size: 5rem;
-
-    }
-}
-
-/* beyoond large desktop*/
-@media only screen and (min-width: 1400px) {
-    .mbtn {
-        /* //modal button */
-        background-color: #ffffff;
-        color: #000000;
-
 
     }
 }
