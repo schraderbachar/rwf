@@ -37,6 +37,7 @@ a {
     padding: 3px 16px;
     position: fixed;
     transition: 1000ms ease;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bg {

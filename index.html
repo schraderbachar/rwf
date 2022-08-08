@@ -14,7 +14,6 @@
         gtag('js', new Date());
         gtag('config', 'G-Q296HKB3P8');
     </script>
-
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,50 +27,39 @@
     <link rel="stylesheet" href="../css/animate.css">
     <!--my stylesheet-->
     <link rel="stylesheet" href="../css/styles.css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>RWF Media | Digital Success No Matter The Language</title>
 </head>
 
 <body>
     <header class="container-fluid bg-header" id="top">
         <!--Nav bar-->
-        <nav class="navbar navbar-dark bg fixed-top navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-                aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#top" class="nav-link">
-                            <span class="link-text">RWF Media</span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./src/webDesign.html">Web Design</a></li>
-                            <li><a class="dropdown-item" href="./src/socialMedia.html">Social Media Management</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#review" class="nav-link">
-                            <span class="link-text lang" key="projects">See our Work</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link" key="contact">
-                            <span class="link-text lang">Contact</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./src/esp.html" class="nav-link" key="contact">
-                            <span class="link-text lang">Español</span>
-                        </a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./src/diseñoWeb.html">Web Design</a></li>
+                                <li><a class="dropdown-item" href="./redesSociales.html">Social Media</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="#review">See our work</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="./src/esp.html">Español</a>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="container-fluid">
@@ -85,8 +73,6 @@
                 <div class="col-sm-4 bottom-right wow bounceInUp">
                     <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">Let's Start</a>
                 </div>
-
-
             </div>
         </div>
     </header>
@@ -99,7 +85,7 @@
                     <h1>Let us Help You</h1>
                 </div>
                 <div class="row services p-2">
-                    <div class="col-sm-12 col-md-6 wow fadeIn p-2">
+                    <div class="col-sm-12 col-md-4 wow fadeIn p-2">
                         <!-- source <a href="https://storyset.com/web">Web illustrations by Storyset</a> -->
                         <img src="../img/webDesign.png" alt="Website Design Image">
                         <h2>Website Design for Small Businesses</h2>
@@ -107,15 +93,16 @@
                             attract those new ones.</p>
                         <a href="./src/webDesign.html" target="_blank" class="btn piBtn">Learn More</a>
                     </div>
-                    <div class="col-sm-12 col-md-6 wow fadeIn p-2">
+                </div>
+                <div class="row services p-2">
+                    <div class="col-sm-12 col-md-4 offset-md-6 wow fadeIn p-2">
                         <!-- source <a href="https://storyset.com/online">Online illustrations by Storyset</a> -->
                         <img src="../img/smImg.png" style="width: 250px; height: 250px;" alt="Social Media Image">
                         <h2>Small Business Social Media Management</h2>
                         <p>We take the stresses of managing your online presence off your hands so you can focus on
                             running your small business. Its that simple.</p>
-                        <a href="./src/socialMedia.html" target="_blank" class="btn piBtn">Learn More</a>
+                        <a href="./src/socialMedia.html" target="_blank" class="btn piBtn p-2">Learn More</a>
                     </div>
-
                 </div>
             </div>
     </section>

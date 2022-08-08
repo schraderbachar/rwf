@@ -12,7 +12,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-134094944-3');
     </script>
     <!-- Bootstrap -->
@@ -37,52 +36,39 @@
     <header class="container-fluid bg-header" id="top">
         <!--Nav bar-->
         <nav class="navbar navbar-dark bg fixed-top navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-                aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#top" class="nav-link">
-                            <span class="link-text">RWF Media</span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Servicios
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./diseñoWeb.html">Diseño Web</a></li>
-                            <li><a class="dropdown-item" href="./redesSociales.html">Gestion de Redes Sociales</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#review" class="nav-link">
-                            <span class="link-text lang" key="projects">Proyectos</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link" key="contact">
-                            <span class="link-text lang">Contáctanos</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../index.html" target="_blank" class="nav-link" key="contact">
-                            <span class="link-text lang">English</span>
-                        </a>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./esp.html">Inicio</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./diseñoWeb.html">Diseño web</a></li>
+                                <li><a class="dropdown-item" href="./redesSociales.html">Redes sociales</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="#review">Proyectos</a>
+                        <a class="nav-link" href="#contact">Contáctanos</a>
+                        <a class="nav-link" href="../index.html">English</a>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="container-fluid">
             <div>
-                <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Te Guiamos al Éxito</h1>
+                <h1 class="middle wow bounceInDown" id="bannerText">RWF Media: Te guiamos al éxito</h1>
             </div>
             <div class="row">
                 <div class="col-sm-4 bottom-left wow bounceInUp">
-                    <a href="#who" id="tour" class="btn mbtn waves-light waves-effect">Desúbrenos</a>
+                    <a href="#who" id="tour" class="btn mbtn waves-light waves-effect">Descúbrenos</a>
                 </div>
                 <div class="col-sm-4 bottom-right wow bounceInUp">
                     <a href="#consulting" id="start" class="btn mbtn waves-light waves-effect">&#191;Empecemos?</a>
@@ -98,7 +84,7 @@
                     <h1>Dejános ayudarte a alcanzar tus sueños</h1>
                 </div>
                 <div class="row services p-2">
-                    <div class="col-sm-12 col-md-6 wow fadeIn p-2">
+                    <div class="col-sm-12 col-md-4 wow fadeIn p-2">
                         <!-- source <a href="https://storyset.com/web">Web illustrations by Storyset</a> -->
                         <img src="../img/webDesign.png" alt="Foto de un equipo trabajando en una web.">
                         <h2>Web para negoicos pequeños</h2>
@@ -106,15 +92,17 @@
                             muestre tus valores y marca.</p>
                         <a href="./diseñoWeb.html" target="_blank" class="btn piBtn">Ver más</a>
                     </div>
-                    <div class="col-sm-12 col-md-6 wow fadeIn p-2">
+                </div>
+                <div class="row services p-2">
+                    <div class="col-sm-12 col-md-4 offset-md-6 wow fadeIn p-2">
                         <!-- source <a href="https://storyset.com/online">Online illustrations by Storyset</a> -->
                         <img src="../img/smImg.png" style="width: 250px; height: 250px;" alt="Foto de redes sociales">
                         <h2>Gestion de redes sociales para tu negocio pequeño</h2>
                         <p>Ya no estarás estresado con tanto trabajo. Nosotros nos ocumpamos del trabajo de tus redes.
                             Tú ocupas con tu negocio. Así de simple. </p>
-                        <a href="./redesSociales.html" target="_blank" class="btn piBtn">&#191;Trabajoms en tus redes?</a>
+                        <a href="./redesSociales.html" target="_blank" class="btn piBtn p-2">&#191;Trabajoms en tus
+                            redes?</a>
                     </div>
-
                 </div>
             </div>
     </section>
