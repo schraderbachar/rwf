@@ -318,11 +318,47 @@
 
                                 </div>
                                 <div class="col-sm-12 col-md-3 d-flex align-items-center flex-column p-3">
-                                    <p class="card-text priceText p-2">$500</p>
                                     <div class="col-sm-12 bottom-right wow bounceInUp mt-auto p-2">
-                                        <a href="mailto:rwfmediadsm@example.com?subject=Social Media Crash Course"
-                                            class="btn mbtn waves-light waves-effect">I just want the crash
-                                            course</a>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn mbtn waves-light waves-effect"
+                                            data-bs-toggle="modal" data-bs-target="#smmModal">
+                                            Aprender más
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="smmModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Elige tu crash
+                                                            course</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-sm-12 p-2">
+                                                            <span class="span-text">Curso basico:</span> Te explico las
+                                                            herramientas útiles y como te
+                                                            ayudan tener éxito. (Gratis)
+                                                        </div>
+                                                        <div class="col-sm-12 p-2">
+                                                            <span class="span-text">Curso avanzado:</span> Te explico
+                                                            como usar las herramientas útiles
+                                                            y aumentar tu eficiencia, desarrollar estrategias, y
+                                                            aumentar tu alcance ($500)
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer d-flex justify-content-between">
+                                                        <a href="mailto:rwfmediadsm@example.com?subject=Crash course de redes"
+                                                            class="btn btn-secondary waves-light waves-effect">Basico
+                                                        </a>
+                                                        <a href="mailto:rwfmediadsm@example.com?subject=Crash course de redes"
+                                                            class="btn mbtn waves-light waves-effect">Avanzado</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end of modal -->
                                     </div>
                                 </div>
                             </div>
