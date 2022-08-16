@@ -176,25 +176,17 @@ section h1 {
     margin-bottom: 1rem;
 }
 
-
-.piCard .accordion-button {
-    color: #000;
-}
-
 .piBtn {
     background-color: #ffffff;
 }
 
-.dwmmCard,
-.calmaCard {
+.reviewCard {
     background-color: #ffffff !important;
     color: #000 !important;
 }
 
-.dwmmCard .accordion-button,
-.dwmmCard .btn,
-.calmaCard .accordion-button,
-.calmaCard .btn {
+.reviewCard .accordion-button,
+.reviewCard .btn {
     background-color: rgb(20, 70, 89);
     color: #ffffff;
 }
