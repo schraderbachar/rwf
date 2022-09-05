@@ -62,7 +62,8 @@ h2 {
 }
 
 .span-land {
-    color: #000;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .mbtn {
